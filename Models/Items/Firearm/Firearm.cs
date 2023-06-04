@@ -60,6 +60,6 @@ namespace Models.Items.Firearm
         /// <summary>
         /// A map of the modification slots
         /// </summary>
-        public object slots {get; set; }
+        public Slot[] slots {get; set; }
     }
 }
