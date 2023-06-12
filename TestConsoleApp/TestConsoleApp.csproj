@@ -8,16 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="firearm.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="firearm.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Models\Models.csproj" />
   </ItemGroup>
 
