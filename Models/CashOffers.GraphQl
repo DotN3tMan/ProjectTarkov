@@ -1,0 +1,32 @@
+query CashOffers
+{
+  traders
+  {
+    id    
+    normalizedName
+    levels
+    {
+      level
+      requiredPlayerLevel
+      requiredCommerce
+      requiredReputation
+      cashOffers
+      {
+        item
+        {
+          types
+          id
+          shortName
+          name
+          normalizedName
+          basePrice
+          iconLink
+          category
+          {
+            name
+          }          
+        }        
+      }      
+    }
+  }
+}

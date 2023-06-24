@@ -1,0 +1,24 @@
+{
+  items(type: gun)
+  {
+    id
+    
+    properties
+    {
+      ... on ItemPropertiesWeapon
+      {
+        slots
+        { 
+          nameId
+          filters
+          {
+            allowedItems
+            {
+              id
+            }
+          }
+        }
+      }
+    }
+  }
+}
